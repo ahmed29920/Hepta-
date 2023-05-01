@@ -1,0 +1,693 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* style for all the contanier */
+.contanier{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* to make the image more darker */
+nav{
+    background-color: rgba(0, 0, 0, 0.9 );
+}
+nav img {
+    opacity: 0.8;
+}
+/* style for the link in the span */
+nav .text span{
+    border-bottom: 2px solid gainsboro;
+}
+/* style for the button in the nav */
+nav .text button{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* style for the image in the div of our website */
+.ourwebsite img{
+    max-width: 400px;
+    margin-right: 25px;
+}
+/* style for all the text in the div of our website */
+.ourwebsite .text p{
+    max-width: 440px;
+    font-size: 15px;
+    margin-right: 125px;
+}
+/* style for the  icon to play the video*/
+.ourwebsite .icon{
+    font-size: 30px;
+}
+/* syle for the link to play the video */
+.ourwebsite a{
+    font-size: 20px;
+    color: #33d1cc;
+}
+/* bachground for the hole div */
+.experience{
+    background-color: rgb(238, 238, 238);
+    height: 700px;
+}
+/* width for all images */
+.experience img{
+    max-width: 50px;
+}
+/* style for first section */
+.experience .sections .first{
+    padding-left: 139px;
+    padding-right: 0px;
+}
+/* style for second section */
+.experience .sections .second{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* style for third section */
+.experience .sections .third{
+    padding-left: 0px;
+    padding-right: 139px;
+}
+/* style for fourth section */
+.experience .sections .fourth{
+    padding-left: 139px;
+    padding-right: 0px;
+}
+/* style for fifth section */
+.experience .sections .fifth{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* style for sixth section */
+.experience .sections .sixth{
+    padding-left: 0px;
+    padding-right: 139px;
+}
+/* style for paragraphs */
+.sections p{
+    font-size: small;
+}
+/* style for international div */
+.international{
+    margin-top: -70px;
+}
+/* style for the head */
+.international .texthead{
+    font-size: 53px;
+}
+/* style for the paragraph */
+.international .textpara{
+    font-size: smaller;
+}
+/* style for div which contan the slider */
+#carouselExampleIndicators{
+    width: 1000px;
+}
+.customer .custcards{
+    width: 1000px;
+}
+.customer .custcards img{
+    width: 70px;
+}
+.customer .custcards .firstcust{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.customer .custcards .thirdcust{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.customer .custcards .secondcust{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.top .topsection{
+    width: 1000px;
+    margin-right: 0px;
+}
+.top .topsection .stars p {
+    color: #33d1cc;
+    font-size: 11px;
+    padding-right: 2px;
+}
+.top .topsection .stars .num{
+    padding-left: 85px;
+}
+footer{
+    background-color: rgb(29, 27, 27);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+footer .fotsections{
+    padding-left: 80px;
+    padding-right: 40px;
+}
+footer .fotsections h3{
+    color: white;
+}
+.fotsections ul a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.74);
+    line-height: 3;
+}
+.fotsections .contact p{
+    color: rgba(245, 245, 245, 0.74);
+}
+.fotsections .contact h6{
+    color: rgba(245, 245, 245, 0.904);
+}
+footer .fotsections .contact{
+    padding-bottom: 30px;
+}
+footer .fotsections .subscribe{
+    padding-bottom: 180px;
+}
+footer .fotsections .subscribe p{
+    color: rgba(245, 245, 245, 0.74);
+}
+footer .fotsections .subscribe .email{
+    border-bottom: 1px solid rgba(245, 245, 245, 0.219);
+    width: 240px;
+    padding-bottom: 10px;
+}
+footer .fotsections .subscribe .email input{
+    background: none;
+    border: none;
+    padding-left: 10px;
+}
+footer .fotsections .subscribe .email button{
+    background: none;
+    border: none;
+    color: white;
+}
+footer .fotsections .copyright{
+    color: rgba(245, 245, 245, 0.74);
+    border-top: 1px solid rgba(245, 245, 245, 0.219);
+    width: 100%;
+}
+footer .fotsections .copyright .icons a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(245, 245, 245, 0.74);
+}
+
+/* responsive for media betwwen 1024 and 768 */
+@media (max-width:1024px) and (min-width:768px){
+    body{
+        width: 718px;
+    }
+    nav{
+        width: 768px;
+    }
+    nav .navbar img{
+        
+        background-size: cover;
+    }
+    .ourwebsite .contanier{
+        margin-left: 125px;
+    }
+    .ourwebsite .text {
+        text-align: center;
+    }
+    .ourwebsite .text h3{
+        margin-right: 15px;
+    }
+    .ourwebsite .text p{
+        text-align: center;
+        width: 273px;
+        padding-right: 0px;
+        margin-left: -10px;
+    }
+    .ourwebsite .text a {
+        margin-right: 35px;
+    }
+    .experience{
+        width: 768px;
+        height: 865px;
+    }
+    .experience .sections .first{
+        padding-right: 75px;
+        padding-left: 65px;
+    }
+    .experience .sections .first p{
+        width: 270px;
+    }
+    .experience .sections .third{
+        padding-right: 75px;
+        padding-left: 65px;
+    }
+    .experience .sections .third p{
+        width: 270px;
+    }
+    .experience .sections .fourth{
+        padding-left: 0px;
+    }
+    .experience .sections .fifth{
+        padding-right: 75px;
+        padding-left: 65px;
+    }
+    .experience .sections .fifth p{
+        width: 270px;
+    }
+    .experience .sections .sixth {
+        padding-right: 0px;
+    }
+    
+    .international .text{
+        margin-left: 40px;
+    }
+    #carouselExampleIndicators{
+        width: 600px;
+        margin-left: 30px;
+    }
+    .recent{
+        margin-left: 60px;
+    }
+    .recent .cards{
+        margin-left: 20px;
+    }
+    .recent .cards .third{
+        margin-top: 15px;
+    }
+    .customer{
+        max-width: 730px;
+    }
+    .customer .text h1{
+        margin-left: 40px;
+    }
+    .customer .custcards{
+        max-width: 768px;
+        margin-left: 50px;
+    }
+    .customer .custcards .firstcust{
+        margin-right: 35px;
+    }
+    .customer .custcards .thirdcust{
+        margin-left: 35px;
+    }
+    .top{
+        width: 768px;
+    }
+    .top .topsection .secondtop{
+        padding-right: 0px;
+    }
+    .top .topsection .fourthtop{
+        padding-right: 0px;
+    }
+    .top .topsection h5{
+        margin-left: 15px;
+    }
+    .top .topsection .stars .num {
+        padding-left: 210px;
+    }
+    .top .topsection .stars {
+        margin-left: 15px;
+    }
+    footer{
+        width: 697px;
+        margin-left: 35px;
+    }
+    footer .fotsections{
+        padding-left: 5px;
+    }
+    footer .fotsections .support{
+        margin-right: -30px;
+    }
+    footer .fotsections .contact{
+        padding-top: 12px;
+    }
+    footer .fotsections .subscribe {
+        margin-left: 15px;
+        padding-bottom: 155px;
+    }
+    footer .fotsections .subscribe .email input{
+        padding-left: 0px;
+        width: 170px;
+    }
+    footer .fotsections .copyright{
+        margin-left: 20px;
+    }
+}
+
+
+/* responsive for media betwwen 767 and 425 */
+@media (max-width:767px) and (min-width:425px){
+    nav{
+        width: 713px;
+    }
+    .ourwebsite{
+        width: 500px;
+    }
+    .ourwebsite img{
+        margin-left: 100px;
+    }
+    .ourwebsite .text{
+        margin-left: 100px;
+        text-align: center;
+    }
+    .ourwebsite .text h3{
+        margin-right: 25px;
+    }
+    .ourwebsite .text p{
+        width: 295px;
+        text-align: center;
+    }
+    .ourwebsite a{
+        margin-right: 35px;
+    }
+    .experience{
+        width: 713px;
+        height: 1300px;
+    }
+    .experience .sections .first{
+        padding-left: 0px;
+    }
+    .experience .sections .third{
+        padding-right: 0px;
+    }
+    .experience .sections .fourth{
+        padding-left: 0px;
+    }
+    .experience .sections .sixth{
+        padding-right: 0px;
+    }
+    .international{
+        width: 713px;
+    }
+    .international .text h1{
+        font-size: 45px;
+    }
+    #carouselExampleIndicators {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .recent{
+        width: 713px;
+    }
+    .recent .cards{
+        margin-left: 15px;
+    }
+    .recent .cards .third{
+        margin-top: 15px;
+    }
+    .customer{
+        width: 713px;
+    }
+    .customer .custcards{
+        width: 430px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .top{
+        width: 713px;
+    }
+    .top .topsection{
+        margin-left: 15px;
+        margin-right: 15px; 
+    }
+    .top .topsection .stars p {
+        font-size: 18px;
+    }
+    .top .topsection .stars .num{
+        padding-left: 425px;
+        font-size: 20px;
+    }
+    footer{
+        width: 713px;
+    }
+    footer .fotsections{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 670px;
+    }
+    footer .fotsections .quick{
+        padding-left: 40px;
+    }
+    footer .fotsections .support{
+        padding-left: 95px;
+        padding-right: 90px;
+    }
+    footer .fotsections .subscribe{
+        padding-left: 50px;
+        text-align: center;
+    }
+    footer .fotsections .copyright{
+        margin-left: 25px;
+    }
+}
+
+/* responsive for media betwwen 424 and 375 */
+@media (max-width:424px) and (min-width:375px){
+    nav{
+        width: 690px;
+    }
+    .navbar .text{
+        margin-top: 45px;
+    }
+    .navbar .text h1{
+        font-size: 35px;
+    }
+    .ourwebsite{
+        width: 690px;
+    }
+    .ourwebsite .contanier{
+        margin-left: 40px;
+    }
+    .ourwebsite .text{
+        text-align: center;
+        width: 440px;
+        margin-left: 90px;
+    }
+    .ourwebsite .text h3{
+        margin-right: 125px;
+        margin-top: 10px;
+    }
+    .ourwebsite .text a{
+        margin-right: 140px;
+    }
+    .experience{
+        width: 690px;
+        height: 1300px;
+    }
+    .experience .textpara{
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .experience .sections .first{
+        padding-left: 0px;
+    }
+    .experience .sections .third{
+        padding-right: 0px;
+    }
+    .experience .sections .fourth{
+        padding-left: 0px;
+    }
+    .experience .sections .sixth{
+        padding-right: 0px;
+    }
+    .international{
+        width: 690px;
+    }
+    .international .text h1{
+        font-size: xx-large;
+    }
+    #carouselExampleIndicators{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .recent{
+        width: 690px;
+    }
+    .recent .text .textpara{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .recent .cards{
+        margin-left: 20px;
+    }
+    .recent .cards .third{
+        margin-top: 20px;
+    }
+    .customer{
+        width: 690px;
+    }
+    .customer .custcards{
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .top{
+        width: 690px;
+    }
+    .top .text .textpara{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .top .topsection{
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    .top .topsection .stars p {
+        font-size: 12px;
+    }
+    .top .topsection .stars .num{
+        padding-left: 405px;
+        font-size: 20px;
+    }
+    footer{
+        width: 690px; 
+    }
+    footer .fotsections{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 670px;
+    }
+    footer .fotsections .quick{
+        padding-left: 25px;
+    }
+    footer .fotsections .support{
+        padding-left: 95px;
+        padding-right: 90px;
+    }
+    footer .fotsections .subscribe{
+        padding-left: 20px;
+        text-align: center;
+    }
+    footer .fotsections .copyright{
+        margin-left: 5px;
+    }
+}
+
+/* responsive for media betwwen 374 and 230 */
+@media (max-width:374px) and (min-width:320px){
+    nav{
+        width: 660px;
+    }
+    .navbar .text{
+        margin-top: 35px;
+    }
+    .navbar .text h1{
+        font-size: 25px;
+    }
+    .ourwebsite{
+        width: 660px;
+    }
+    .ourwebsite .contanier{
+        margin-left: 35px;
+    }
+    .ourwebsite .text{
+        text-align: center;
+        width: 520px;
+        margin-left: 80px;
+    }
+    .ourwebsite .text h3{
+        margin-right: 100px;
+        margin-top: 5px;
+    }
+    .ourwebsite .text p{
+        font-size: larger;
+    }
+    .ourwebsite .text a{
+        margin-right: 145px;
+    }
+    .experience{
+        width: 660px;
+        height: 1355px;
+    }
+    .experience .textpara{
+    font-size: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
+    }
+    .experience .sections p{
+        font-size: 16px;
+    }
+    .experience .sections .first{
+        padding-left: 0px;
+    }
+    .experience .sections .third{
+        padding-right: 0px;
+    }
+    .experience .sections .fourth{
+        padding-left: 0px;
+    }
+    .experience .sections .sixth{
+        padding-right: 0px;
+    }
+    .international{
+        width: 660px;
+    }
+    .international .text h1{
+        font-size: x-large;
+    }
+    .international .text p{
+        font-size: 16px;
+    }
+    #carouselExampleIndicators{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .recent{
+        width: 660px;
+    }
+    .recent .text .textpara{
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    .recent .cards{
+        margin-left: 20px;
+    }
+    .recent .cards .third{
+        margin-top: 20px;
+    }
+    .customer{
+        width: 660px;
+    }
+    .customer .custcards{
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .top{
+        width: 660px;
+    }
+    .top .text .textpara{
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+    .top .topsection{
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    .top .topsection .stars p {
+        font-size: 12px;
+    }
+    .top .topsection .stars .num{
+        padding-left: 375px;
+        font-size: 20px;
+    }
+    footer{
+        width: 660px; 
+    }
+    footer .fotsections{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 652px;
+    }
+    footer .fotsections .quick{
+        padding-left: 10px;
+    }
+    footer .fotsections .support{
+        padding-left: 95px;
+        padding-right: 90px;
+    }
+    footer .fotsections .subscribe{
+        padding-left: 0px;
+        text-align: center;
+    }
+    footer .fotsections .copyright{
+        margin-left: 0px;
+    }
+}
